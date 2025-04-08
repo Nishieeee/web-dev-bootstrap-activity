@@ -6,8 +6,8 @@ document.querySelector("#calculate").onclick = () => {
 
     let total = document.querySelector("#total");
 
-    x = parseInt(x);
-    y = parseInt(y);
+    x = parseFloat(x);
+    y = parseFloat(y);
 
     if(isNaN(x) || isNaN(y)) {
         alert("Field Should not be empty");
