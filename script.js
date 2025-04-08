@@ -34,7 +34,7 @@ document.querySelector("#calculate").onclick = () => {
             
             case '/':
                 let quo = x / y;
-                if(x === 0 ||| y === 0) {
+                if(x === 0 || y === 0) {
                     alert("cannot divide by 0");
                 } else {
                     total.innerHTML = `Results: ${quo}`;
